@@ -1,0 +1,12 @@
+getgenv().autoBalloon = true
+getgenv().autoOpenGiftBag = false
+
+getgenv().autoBalloonConfig = {
+    START_DELAY = 1, -- delay before starting
+    SERVER_HOP = true, -- server hop after popping balloons
+    SERVER_HOP_DELAY = 1, -- delay before server hopping
+    BALLOON_DELAY = 1, -- delay before popping next balloon (if there are multiple balloons in the server)
+    GET_BALLOON_DELAY = 1 -- delay before getting balloons again if none are detected
+}
+
+loadstring(game:HttpGet("https://dpaste.com/C9MYL7DGX.txt"))()
